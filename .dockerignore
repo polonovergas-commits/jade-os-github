@@ -1,0 +1,56 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.env
+.env.local
+.git
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose*.yml
+*.md
+*.log
+.pytest_cache
+.coverage
+htmlcov
+.tox
+.nox
+.hypothesis
+*.egg-info
+dist
+build
+.eggs
+*.egg
+.mypy_cache
+.ruff_cache
+.venv
+venv
+ENV
+
+# Pastas grandes - NAO COPIAR
+storage/
+attached_assets/
+data/
+logs/
+
+# Cache do Replit
+.pythonlibs/
+.upm/
+.cache/
+.config/
+.local/
+replit.nix
+.replit
+
+# Arquivos temporarios
+dump.rdb
+*.rdb
+celerybeat-schedule
+celerybeat.pid
+
+# Pastas duplicadas (modulos ja estao em jade_os/)
+modules/
+workers/
